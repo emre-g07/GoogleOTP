@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D338261F7536C400FF1243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338251F7536C400FF1243 /* main.m */; };
+		A3D338291F7536C400FF1243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338281F7536C400FF1243 /* AppDelegate.m */; };
+		A3D3382C1F7536C400FF1243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3382B1F7536C400FF1243 /* ViewController.m */; };
+		A3D3382F1F7536C400FF1243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D3382D1F7536C400FF1243 /* Main.storyboard */; };
+		A3D338311F7536C400FF1243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D338301F7536C400FF1243 /* Assets.xcassets */; };
+		A3D338341F7536C400FF1243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D338321F7536C400FF1243 /* LaunchScreen.storyboard */; };
+		A3D3383F1F7536C400FF1243 /* Google_OTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3383E1F7536C400FF1243 /* Google_OTPTests.m */; };
+		A3D3384A1F7536C400FF1243 /* Google_OTPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338491F7536C400FF1243 /* Google_OTPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3D3383B1F7536C400FF1243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D338191F7536C400FF1243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D338201F7536C400FF1243;
+			remoteInfo = "Google OTP";
+		};
+		A3D338461F7536C400FF1243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D338191F7536C400FF1243 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D338201F7536C400FF1243;
+			remoteInfo = "Google OTP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3D338211F7536C400FF1243 /* Google OTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google OTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D338251F7536C400FF1243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3D338271F7536C400FF1243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3D338281F7536C400FF1243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3D3382A1F7536C400FF1243 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3D3382B1F7536C400FF1243 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3D3382E1F7536C400FF1243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3D338301F7536C400FF1243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3D338331F7536C400FF1243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3D338351F7536C400FF1243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D3383A1F7536C400FF1243 /* Google OTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google OTPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D3383E1F7536C400FF1243 /* Google_OTPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_OTPTests.m; sourceTree = "<group>"; };
+		A3D338401F7536C400FF1243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D338451F7536C400FF1243 /* Google OTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google OTPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D338491F7536C400FF1243 /* Google_OTPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_OTPUITests.m; sourceTree = "<group>"; };
+		A3D3384B1F7536C400FF1243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D3381E1F7536C400FF1243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D338371F7536C400FF1243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D338421F7536C400FF1243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D338181F7536C400FF1243 = {
+			isa = PBXGroup;
+			children = (
+				A3D338231F7536C400FF1243 /* Google OTP */,
+				A3D3383D1F7536C400FF1243 /* Google OTPTests */,
+				A3D338481F7536C400FF1243 /* Google OTPUITests */,
+				A3D338221F7536C400FF1243 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D338221F7536C400FF1243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D338211F7536C400FF1243 /* Google OTP.app */,
+				A3D3383A1F7536C400FF1243 /* Google OTPTests.xctest */,
+				A3D338451F7536C400FF1243 /* Google OTPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D338231F7536C400FF1243 /* Google OTP */ = {
+			isa = PBXGroup;
+			children = (
+				A3D338271F7536C400FF1243 /* AppDelegate.h */,
+				A3D338281F7536C400FF1243 /* AppDelegate.m */,
+				A3D3382A1F7536C400FF1243 /* ViewController.h */,
+				A3D3382B1F7536C400FF1243 /* ViewController.m */,
+				A3D3382D1F7536C400FF1243 /* Main.storyboard */,
+				A3D338301F7536C400FF1243 /* Assets.xcassets */,
+				A3D338321F7536C400FF1243 /* LaunchScreen.storyboard */,
+				A3D338351F7536C400FF1243 /* Info.plist */,
+				A3D338241F7536C400FF1243 /* Supporting Files */,
+			);
+			path = "Google OTP";
+			sourceTree = "<group>";
+		};
+		A3D338241F7536C400FF1243 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3D338251F7536C400FF1243 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3D3383D1F7536C400FF1243 /* Google OTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D3383E1F7536C400FF1243 /* Google_OTPTests.m */,
+				A3D338401F7536C400FF1243 /* Info.plist */,
+			);
+			path = "Google OTPTests";
+			sourceTree = "<group>";
+		};
+		A3D338481F7536C400FF1243 /* Google OTPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D338491F7536C400FF1243 /* Google_OTPUITests.m */,
+				A3D3384B1F7536C400FF1243 /* Info.plist */,
+			);
+			path = "Google OTPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3D338201F7536C400FF1243 /* Google OTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D3384E1F7536C400FF1243 /* Build configuration list for PBXNativeTarget "Google OTP" */;
+			buildPhases = (
+				A3D3381D1F7536C400FF1243 /* Sources */,
+				A3D3381E1F7536C400FF1243 /* Frameworks */,
+				A3D3381F1F7536C400FF1243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google OTP";
+			productName = "Google OTP";
+			productReference = A3D338211F7536C400FF1243 /* Google OTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3D338391F7536C400FF1243 /* Google OTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D338511F7536C400FF1243 /* Build configuration list for PBXNativeTarget "Google OTPTests" */;
+			buildPhases = (
+				A3D338361F7536C400FF1243 /* Sources */,
+				A3D338371F7536C400FF1243 /* Frameworks */,
+				A3D338381F7536C400FF1243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D3383C1F7536C400FF1243 /* PBXTargetDependency */,
+			);
+			name = "Google OTPTests";
+			productName = "Google OTPTests";
+			productReference = A3D3383A1F7536C400FF1243 /* Google OTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3D338441F7536C400FF1243 /* Google OTPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D338541F7536C400FF1243 /* Build configuration list for PBXNativeTarget "Google OTPUITests" */;
+			buildPhases = (
+				A3D338411F7536C400FF1243 /* Sources */,
+				A3D338421F7536C400FF1243 /* Frameworks */,
+				A3D338431F7536C400FF1243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D338471F7536C400FF1243 /* PBXTargetDependency */,
+			);
+			name = "Google OTPUITests";
+			productName = "Google OTPUITests";
+			productReference = A3D338451F7536C400FF1243 /* Google OTPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D338191F7536C400FF1243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = EmreG;
+				TargetAttributes = {
+					A3D338201F7536C400FF1243 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J78AVHSPHX;
+						ProvisioningStyle = Automatic;
+					};
+					A3D338391F7536C400FF1243 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J78AVHSPHX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3D338201F7536C400FF1243;
+					};
+					A3D338441F7536C400FF1243 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = J78AVHSPHX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3D338201F7536C400FF1243;
+					};
+				};
+			};
+			buildConfigurationList = A3D3381C1F7536C400FF1243 /* Build configuration list for PBXProject "Google OTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3D338181F7536C400FF1243;
+			productRefGroup = A3D338221F7536C400FF1243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D338201F7536C400FF1243 /* Google OTP */,
+				A3D338391F7536C400FF1243 /* Google OTPTests */,
+				A3D338441F7536C400FF1243 /* Google OTPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D3381F1F7536C400FF1243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D338341F7536C400FF1243 /* LaunchScreen.storyboard in Resources */,
+				A3D338311F7536C400FF1243 /* Assets.xcassets in Resources */,
+				A3D3382F1F7536C400FF1243 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D338381F7536C400FF1243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D338431F7536C400FF1243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D3381D1F7536C400FF1243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D3382C1F7536C400FF1243 /* ViewController.m in Sources */,
+				A3D338291F7536C400FF1243 /* AppDelegate.m in Sources */,
+				A3D338261F7536C400FF1243 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D338361F7536C400FF1243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D3383F1F7536C400FF1243 /* Google_OTPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D338411F7536C400FF1243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D3384A1F7536C400FF1243 /* Google_OTPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3D3383C1F7536C400FF1243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D338201F7536C400FF1243 /* Google OTP */;
+			targetProxy = A3D3383B1F7536C400FF1243 /* PBXContainerItemProxy */;
+		};
+		A3D338471F7536C400FF1243 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D338201F7536C400FF1243 /* Google OTP */;
+			targetProxy = A3D338461F7536C400FF1243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3D3382D1F7536C400FF1243 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D3382E1F7536C400FF1243 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3D338321F7536C400FF1243 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D338331F7536C400FF1243 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3D3384C1F7536C400FF1243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3D3384D1F7536C400FF1243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3D3384F1F7536C400FF1243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J78AVHSPHX;
+				INFOPLIST_FILE = "Google OTP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emregurses.GoogleOTP.Google-OTP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3D338501F7536C400FF1243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J78AVHSPHX;
+				INFOPLIST_FILE = "Google OTP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emregurses.GoogleOTP.Google-OTP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3D338521F7536C400FF1243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J78AVHSPHX;
+				INFOPLIST_FILE = "Google OTPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emregurses.GoogleOTP.Google-OTPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google OTP.app/Google OTP";
+			};
+			name = Debug;
+		};
+		A3D338531F7536C400FF1243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J78AVHSPHX;
+				INFOPLIST_FILE = "Google OTPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emregurses.GoogleOTP.Google-OTPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google OTP.app/Google OTP";
+			};
+			name = Release;
+		};
+		A3D338551F7536C400FF1243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J78AVHSPHX;
+				INFOPLIST_FILE = "Google OTPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emregurses.GoogleOTP.Google-OTPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Google OTP";
+			};
+			name = Debug;
+		};
+		A3D338561F7536C400FF1243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J78AVHSPHX;
+				INFOPLIST_FILE = "Google OTPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emregurses.GoogleOTP.Google-OTPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Google OTP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D3381C1F7536C400FF1243 /* Build configuration list for PBXProject "Google OTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D3384C1F7536C400FF1243 /* Debug */,
+				A3D3384D1F7536C400FF1243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D3384E1F7536C400FF1243 /* Build configuration list for PBXNativeTarget "Google OTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D3384F1F7536C400FF1243 /* Debug */,
+				A3D338501F7536C400FF1243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D338511F7536C400FF1243 /* Build configuration list for PBXNativeTarget "Google OTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D338521F7536C400FF1243 /* Debug */,
+				A3D338531F7536C400FF1243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D338541F7536C400FF1243 /* Build configuration list for PBXNativeTarget "Google OTPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D338551F7536C400FF1243 /* Debug */,
+				A3D338561F7536C400FF1243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D338191F7536C400FF1243 /* Project object */;
+}
