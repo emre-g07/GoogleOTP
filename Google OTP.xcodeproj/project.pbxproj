@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A39E11181F793098004FD7BA /* googleAut.png in Resources */ = {isa = PBXBuildFile; fileRef = A39E11171F793098004FD7BA /* googleAut.png */; };
+		A39E11191F793098004FD7BA /* googleAut.png in Resources */ = {isa = PBXBuildFile; fileRef = A39E11171F793098004FD7BA /* googleAut.png */; };
+		A39E111A1F793098004FD7BA /* googleAut.png in Resources */ = {isa = PBXBuildFile; fileRef = A39E11171F793098004FD7BA /* googleAut.png */; };
 		A3D338261F7536C400FF1243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338251F7536C400FF1243 /* main.m */; };
 		A3D338291F7536C400FF1243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338281F7536C400FF1243 /* AppDelegate.m */; };
 		A3D3382C1F7536C400FF1243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3382B1F7536C400FF1243 /* ViewController.m */; };
@@ -15,6 +18,45 @@
 		A3D338341F7536C400FF1243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D338321F7536C400FF1243 /* LaunchScreen.storyboard */; };
 		A3D3383F1F7536C400FF1243 /* Google_OTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3383E1F7536C400FF1243 /* Google_OTPTests.m */; };
 		A3D3384A1F7536C400FF1243 /* Google_OTPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338491F7536C400FF1243 /* Google_OTPUITests.m */; };
+		A3D3385B1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338591F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m */; };
+		A3D3385C1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338591F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m */; };
+		A3D3385D1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338591F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m */; };
+		A3D3385E1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D3385A1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib */; };
+		A3D3385F1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D3385A1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib */; };
+		A3D338601F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D3385A1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib */; };
+		A3D3386D1F753AA400FF1243 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338631F753AA400FF1243 /* QRCameraSwitchButton.m */; };
+		A3D3386E1F753AA400FF1243 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338631F753AA400FF1243 /* QRCameraSwitchButton.m */; };
+		A3D3386F1F753AA400FF1243 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338631F753AA400FF1243 /* QRCameraSwitchButton.m */; };
+		A3D338701F753AA400FF1243 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338651F753AA400FF1243 /* QRCodeReader.m */; };
+		A3D338711F753AA400FF1243 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338651F753AA400FF1243 /* QRCodeReader.m */; };
+		A3D338721F753AA400FF1243 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338651F753AA400FF1243 /* QRCodeReader.m */; };
+		A3D338731F753AA400FF1243 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338681F753AA400FF1243 /* QRCodeReaderView.m */; };
+		A3D338741F753AA400FF1243 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338681F753AA400FF1243 /* QRCodeReaderView.m */; };
+		A3D338751F753AA400FF1243 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338681F753AA400FF1243 /* QRCodeReaderView.m */; };
+		A3D338761F753AA400FF1243 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3386A1F753AA400FF1243 /* QRCodeReaderViewController.m */; };
+		A3D338771F753AA400FF1243 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3386A1F753AA400FF1243 /* QRCodeReaderViewController.m */; };
+		A3D338781F753AA400FF1243 /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3386A1F753AA400FF1243 /* QRCodeReaderViewController.m */; };
+		A3D338791F753AA400FF1243 /* QRToggleTorchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3386C1F753AA400FF1243 /* QRToggleTorchButton.m */; };
+		A3D3387A1F753AA400FF1243 /* QRToggleTorchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3386C1F753AA400FF1243 /* QRToggleTorchButton.m */; };
+		A3D3387B1F753AA400FF1243 /* QRToggleTorchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3386C1F753AA400FF1243 /* QRToggleTorchButton.m */; };
+		A3D338881F753B4F00FF1243 /* GTMMethodCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3387F1F753B4F00FF1243 /* GTMMethodCheck.m */; };
+		A3D338891F753B4F00FF1243 /* GTMMethodCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3387F1F753B4F00FF1243 /* GTMMethodCheck.m */; };
+		A3D3388A1F753B4F00FF1243 /* GTMMethodCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D3387F1F753B4F00FF1243 /* GTMMethodCheck.m */; };
+		A3D3388B1F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338811F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m */; };
+		A3D3388C1F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338811F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m */; };
+		A3D3388D1F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338811F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m */; };
+		A3D3388E1F753B4F00FF1243 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338831F753B4F00FF1243 /* GTMNSString+URLArguments.m */; };
+		A3D3388F1F753B4F00FF1243 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338831F753B4F00FF1243 /* GTMNSString+URLArguments.m */; };
+		A3D338901F753B4F00FF1243 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338831F753B4F00FF1243 /* GTMNSString+URLArguments.m */; };
+		A3D338911F753B4F00FF1243 /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338851F753B4F00FF1243 /* GTMStringEncoding.m */; };
+		A3D338921F753B4F00FF1243 /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338851F753B4F00FF1243 /* GTMStringEncoding.m */; };
+		A3D338931F753B4F00FF1243 /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338851F753B4F00FF1243 /* GTMStringEncoding.m */; };
+		A3D338941F753B4F00FF1243 /* HmacOTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338871F753B4F00FF1243 /* HmacOTPGenerator.m */; };
+		A3D338951F753B4F00FF1243 /* HmacOTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338871F753B4F00FF1243 /* HmacOTPGenerator.m */; };
+		A3D338961F753B4F00FF1243 /* HmacOTPGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338871F753B4F00FF1243 /* HmacOTPGenerator.m */; };
+		A3D338991F753DB500FF1243 /* TOTP.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338981F753DB500FF1243 /* TOTP.m */; };
+		A3D3389A1F753DB500FF1243 /* TOTP.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338981F753DB500FF1243 /* TOTP.m */; };
+		A3D3389B1F753DB500FF1243 /* TOTP.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D338981F753DB500FF1243 /* TOTP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A39E11171F793098004FD7BA /* googleAut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleAut.png; sourceTree = "<group>"; };
 		A3D338211F7536C400FF1243 /* Google OTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google OTP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D338251F7536C400FF1243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3D338271F7536C400FF1243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +94,33 @@
 		A3D338451F7536C400FF1243 /* Google OTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google OTPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D338491F7536C400FF1243 /* Google_OTPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_OTPUITests.m; sourceTree = "<group>"; };
 		A3D3384B1F7536C400FF1243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D338581F7538EB00FF1243 /* GoogleAutOTPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAutOTPTableViewCell.h; sourceTree = "<group>"; };
+		A3D338591F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAutOTPTableViewCell.m; sourceTree = "<group>"; };
+		A3D3385A1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleAutOTPTableViewCell.xib; sourceTree = "<group>"; };
+		A3D338621F753AA400FF1243 /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
+		A3D338631F753AA400FF1243 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCameraSwitchButton.m; sourceTree = "<group>"; };
+		A3D338641F753AA400FF1243 /* QRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReader.h; sourceTree = "<group>"; };
+		A3D338651F753AA400FF1243 /* QRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReader.m; sourceTree = "<group>"; };
+		A3D338661F753AA400FF1243 /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		A3D338671F753AA400FF1243 /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		A3D338681F753AA400FF1243 /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		A3D338691F753AA400FF1243 /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		A3D3386A1F753AA400FF1243 /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
+		A3D3386B1F753AA400FF1243 /* QRToggleTorchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRToggleTorchButton.h; sourceTree = "<group>"; };
+		A3D3386C1F753AA400FF1243 /* QRToggleTorchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRToggleTorchButton.m; sourceTree = "<group>"; };
+		A3D3387D1F753B4F00FF1243 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		A3D3387E1F753B4F00FF1243 /* GTMMethodCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMethodCheck.h; sourceTree = "<group>"; };
+		A3D3387F1F753B4F00FF1243 /* GTMMethodCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMethodCheck.m; sourceTree = "<group>"; };
+		A3D338801F753B4F00FF1243 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		A3D338811F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		A3D338821F753B4F00FF1243 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		A3D338831F753B4F00FF1243 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		A3D338841F753B4F00FF1243 /* GTMStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStringEncoding.h; sourceTree = "<group>"; };
+		A3D338851F753B4F00FF1243 /* GTMStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStringEncoding.m; sourceTree = "<group>"; };
+		A3D338861F753B4F00FF1243 /* HmacOTPGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmacOTPGenerator.h; sourceTree = "<group>"; };
+		A3D338871F753B4F00FF1243 /* HmacOTPGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HmacOTPGenerator.m; sourceTree = "<group>"; };
+		A3D338971F753DB500FF1243 /* TOTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOTP.h; sourceTree = "<group>"; };
+		A3D338981F753DB500FF1243 /* TOTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOTP.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +171,11 @@
 		A3D338231F7536C400FF1243 /* Google OTP */ = {
 			isa = PBXGroup;
 			children = (
+				A3D338971F753DB500FF1243 /* TOTP.h */,
+				A3D338981F753DB500FF1243 /* TOTP.m */,
+				A3D3387C1F753B4200FF1243 /* HMacOTPGenerator */,
+				A3D338611F753A9600FF1243 /* QRReader */,
+				A3D338571F7538B800FF1243 /* CustomOTPCell */,
 				A3D338271F7536C400FF1243 /* AppDelegate.h */,
 				A3D338281F7536C400FF1243 /* AppDelegate.m */,
 				A3D3382A1F7536C400FF1243 /* ViewController.h */,
@@ -117,6 +192,7 @@
 		A3D338241F7536C400FF1243 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A39E11171F793098004FD7BA /* googleAut.png */,
 				A3D338251F7536C400FF1243 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +214,52 @@
 				A3D3384B1F7536C400FF1243 /* Info.plist */,
 			);
 			path = "Google OTPUITests";
+			sourceTree = "<group>";
+		};
+		A3D338571F7538B800FF1243 /* CustomOTPCell */ = {
+			isa = PBXGroup;
+			children = (
+				A3D338581F7538EB00FF1243 /* GoogleAutOTPTableViewCell.h */,
+				A3D338591F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m */,
+				A3D3385A1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib */,
+			);
+			name = CustomOTPCell;
+			sourceTree = "<group>";
+		};
+		A3D338611F753A9600FF1243 /* QRReader */ = {
+			isa = PBXGroup;
+			children = (
+				A3D338621F753AA400FF1243 /* QRCameraSwitchButton.h */,
+				A3D338631F753AA400FF1243 /* QRCameraSwitchButton.m */,
+				A3D338641F753AA400FF1243 /* QRCodeReader.h */,
+				A3D338651F753AA400FF1243 /* QRCodeReader.m */,
+				A3D338661F753AA400FF1243 /* QRCodeReaderDelegate.h */,
+				A3D338671F753AA400FF1243 /* QRCodeReaderView.h */,
+				A3D338681F753AA400FF1243 /* QRCodeReaderView.m */,
+				A3D338691F753AA400FF1243 /* QRCodeReaderViewController.h */,
+				A3D3386A1F753AA400FF1243 /* QRCodeReaderViewController.m */,
+				A3D3386B1F753AA400FF1243 /* QRToggleTorchButton.h */,
+				A3D3386C1F753AA400FF1243 /* QRToggleTorchButton.m */,
+			);
+			name = QRReader;
+			sourceTree = "<group>";
+		};
+		A3D3387C1F753B4200FF1243 /* HMacOTPGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				A3D3387D1F753B4F00FF1243 /* GTMDefines.h */,
+				A3D3387E1F753B4F00FF1243 /* GTMMethodCheck.h */,
+				A3D3387F1F753B4F00FF1243 /* GTMMethodCheck.m */,
+				A3D338801F753B4F00FF1243 /* GTMNSDictionary+URLArguments.h */,
+				A3D338811F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m */,
+				A3D338821F753B4F00FF1243 /* GTMNSString+URLArguments.h */,
+				A3D338831F753B4F00FF1243 /* GTMNSString+URLArguments.m */,
+				A3D338841F753B4F00FF1243 /* GTMStringEncoding.h */,
+				A3D338851F753B4F00FF1243 /* GTMStringEncoding.m */,
+				A3D338861F753B4F00FF1243 /* HmacOTPGenerator.h */,
+				A3D338871F753B4F00FF1243 /* HmacOTPGenerator.m */,
+			);
+			name = HMacOTPGenerator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +374,8 @@
 				A3D338341F7536C400FF1243 /* LaunchScreen.storyboard in Resources */,
 				A3D338311F7536C400FF1243 /* Assets.xcassets in Resources */,
 				A3D3382F1F7536C400FF1243 /* Main.storyboard in Resources */,
+				A3D3385E1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib in Resources */,
+				A39E11181F793098004FD7BA /* googleAut.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +383,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D3385F1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib in Resources */,
+				A39E11191F793098004FD7BA /* googleAut.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +392,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D338601F7538EB00FF1243 /* GoogleAutOTPTableViewCell.xib in Resources */,
+				A39E111A1F793098004FD7BA /* googleAut.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +404,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D338991F753DB500FF1243 /* TOTP.m in Sources */,
 				A3D3382C1F7536C400FF1243 /* ViewController.m in Sources */,
+				A3D338731F753AA400FF1243 /* QRCodeReaderView.m in Sources */,
+				A3D338941F753B4F00FF1243 /* HmacOTPGenerator.m in Sources */,
 				A3D338291F7536C400FF1243 /* AppDelegate.m in Sources */,
+				A3D338701F753AA400FF1243 /* QRCodeReader.m in Sources */,
+				A3D3386D1F753AA400FF1243 /* QRCameraSwitchButton.m in Sources */,
+				A3D3388E1F753B4F00FF1243 /* GTMNSString+URLArguments.m in Sources */,
 				A3D338261F7536C400FF1243 /* main.m in Sources */,
+				A3D3388B1F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m in Sources */,
+				A3D3385B1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m in Sources */,
+				A3D338911F753B4F00FF1243 /* GTMStringEncoding.m in Sources */,
+				A3D338791F753AA400FF1243 /* QRToggleTorchButton.m in Sources */,
+				A3D338881F753B4F00FF1243 /* GTMMethodCheck.m in Sources */,
+				A3D338761F753AA400FF1243 /* QRCodeReaderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +426,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D3389A1F753DB500FF1243 /* TOTP.m in Sources */,
 				A3D3383F1F7536C400FF1243 /* Google_OTPTests.m in Sources */,
+				A3D338771F753AA400FF1243 /* QRCodeReaderViewController.m in Sources */,
+				A3D3388C1F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m in Sources */,
+				A3D338891F753B4F00FF1243 /* GTMMethodCheck.m in Sources */,
+				A3D338951F753B4F00FF1243 /* HmacOTPGenerator.m in Sources */,
+				A3D3386E1F753AA400FF1243 /* QRCameraSwitchButton.m in Sources */,
+				A3D338741F753AA400FF1243 /* QRCodeReaderView.m in Sources */,
+				A3D338711F753AA400FF1243 /* QRCodeReader.m in Sources */,
+				A3D3387A1F753AA400FF1243 /* QRToggleTorchButton.m in Sources */,
+				A3D338921F753B4F00FF1243 /* GTMStringEncoding.m in Sources */,
+				A3D3385C1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m in Sources */,
+				A3D3388F1F753B4F00FF1243 /* GTMNSString+URLArguments.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +446,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D3389B1F753DB500FF1243 /* TOTP.m in Sources */,
 				A3D3384A1F7536C400FF1243 /* Google_OTPUITests.m in Sources */,
+				A3D338781F753AA400FF1243 /* QRCodeReaderViewController.m in Sources */,
+				A3D3388D1F753B4F00FF1243 /* GTMNSDictionary+URLArguments.m in Sources */,
+				A3D3388A1F753B4F00FF1243 /* GTMMethodCheck.m in Sources */,
+				A3D338961F753B4F00FF1243 /* HmacOTPGenerator.m in Sources */,
+				A3D3386F1F753AA400FF1243 /* QRCameraSwitchButton.m in Sources */,
+				A3D338751F753AA400FF1243 /* QRCodeReaderView.m in Sources */,
+				A3D338721F753AA400FF1243 /* QRCodeReader.m in Sources */,
+				A3D3387B1F753AA400FF1243 /* QRToggleTorchButton.m in Sources */,
+				A3D338931F753B4F00FF1243 /* GTMStringEncoding.m in Sources */,
+				A3D3385D1F7538EB00FF1243 /* GoogleAutOTPTableViewCell.m in Sources */,
+				A3D338901F753B4F00FF1243 /* GTMNSString+URLArguments.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +594,7 @@
 				DEVELOPMENT_TEAM = J78AVHSPHX;
 				INFOPLIST_FILE = "Google OTP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emregurses.GoogleOTP.Google-OTP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emregurses.GoogleOTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -442,7 +606,7 @@
 				DEVELOPMENT_TEAM = J78AVHSPHX;
 				INFOPLIST_FILE = "Google OTP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emregurses.GoogleOTP.Google-OTP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emregurses.GoogleOTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -516,6 +680,7 @@
 				A3D338501F7536C400FF1243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D338511F7536C400FF1243 /* Build configuration list for PBXNativeTarget "Google OTPTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +689,7 @@
 				A3D338531F7536C400FF1243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D338541F7536C400FF1243 /* Build configuration list for PBXNativeTarget "Google OTPUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +698,7 @@
 				A3D338561F7536C400FF1243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
