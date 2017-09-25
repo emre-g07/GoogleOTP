@@ -4,12 +4,12 @@ With this project, you can
  * create OTP which based on Google Authenticator Algorithm.
  * scan barcode to create OTP
  
- ![Alt text](https://user-images.githubusercontent.com/6350065/30824405-33e5fbfe-a238-11e7-83f7-b7ab599c6cf4.png "Create OTP Options")
+ ![Alt text](https://user-images.githubusercontent.com/6350065/30824855-9924dfa2-a239-11e7-8639-a0c2efebf412.png "Create OTP Options")
  
 i use below string to create Google OTP
 otpauth://totp/AWP-S0134TESTT13:googleadmin?secret=%@&issuer=AWP-S0134TESTT13&algorithm=SHA1&digits=8&period=30
 
- ![Alt text](https://user-images.githubusercontent.com/6350065/30824404-33d88280-a238-11e7-9b4e-a24185ca0d07.png "Result of OTP creation process")
+ ![Alt text](https://user-images.githubusercontent.com/6350065/30824848-934c4a2a-a239-11e7-8bb2-f8a086759be4.png "Result of OTP creation process")
 
 
 totp
